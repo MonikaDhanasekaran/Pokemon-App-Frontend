@@ -13,7 +13,7 @@ const Pokemon = () => {
     }, []);
 
     const getCreatedPokemon = async () => {
-        const response = await axios.get("https://pokemon-o8v4.onrender.com/pokemon/get");
+        const response = await axios.get("https://pokemon-053i.onrender.com/pokemon/get");
         setPokemon(response.data);
     }
 
